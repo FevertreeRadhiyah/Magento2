@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+    <default>
+        <payment>
+            <accountpayment>
+                <payment_action>capture</payment_action><!-- You can use another methor like capture  -->
+                <model>Fevertree\Accountpayment\Model\Accountpayment</model>
+                <active>1</active>
+                <title>Kloppers Account</title>
+                <order_status>processing</order_status><!-- set default order status-->
+                 <businessID>623</businessID>
+                <password>99j@*7#d</password>
+            </accountpayment>
+        </payment>
+    </default>
+</config>
